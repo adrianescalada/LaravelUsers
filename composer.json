@@ -32,6 +32,6 @@
             "wdna\\ApiGuard\\": "src"
         }
     },
-    "minimum-stability": "dev",
+   
     "prefer-stable": true
 }
