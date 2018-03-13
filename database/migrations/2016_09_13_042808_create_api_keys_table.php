@@ -17,11 +17,12 @@ class CreateApiKeysTable extends Migration
             $table->increments('id');
             $table->nullableMorphs('apikeyable');
             $table->string('key', 50);
-            $table->index('key');
             $table->string('last_ip_address', 50)->nullable();
             $table->dateTime('last_used_at')->nullable();
             $table->nullableTimestamps();
             $table->softDeletes();
+
+            $table->index('key');
         });
     }
 
