@@ -1,13 +1,16 @@
 {
-    "name": "wdna/api-guard",
-    "description": "A simple way of authenticating your APIs with API keys using Laravel",
+    "name": "wdna/users-roles",
+    "description": "A simple way of authenticating your APIs with API keys, Users, Roles and Permissions using Laravel",
     "keywords": [
         "api",
         "rest",
         "json",
         "api keys",
         "api authentication",
-        "laravel"
+        "laravel",
+        "users",
+        "Roles",
+        "Permissions"
     ],
     "homepage": "https://gitlab.com/wdna/users",
 
@@ -15,23 +18,22 @@
     "authors": [
         {
             "name": "Adrian Escalada",
-            "email": "adrianescalada@gmail.com"
+            "email": "adrian.escalada@wdna.com"
         }
     ],
     "require": {
         "php": ">=5.6.4",
         "illuminate/support": "^5.3.0",
         "illuminate/database": "^5.3.0",
-        "ellipsesynergie/api-response": "*"
+         "chrisbjr/api-guard" :"4.*"
     },
     "require-dev": {
-        "phpunit/phpunit": "^4.0 || ^5.0"
+        "phpunit/php unit": "^4.0 || ^5.0"
     },
     "autoload": {
         "psr-4": {
-            "wdna\\ApiGuard\\": "src"
+            "wdna\\users-roles\\": "src"
         }
     },
-   
-    "prefer-stable": true
+    "minimum-stability": "dev"
 }
