@@ -1,6 +1,6 @@
 <?php
 
-namespace wdna\users\Controllers\Auth;
+namespace wdna\laravel_users\Controllers\Auth;
 use Illuminate\Auth\Events\Logout;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;

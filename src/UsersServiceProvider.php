@@ -1,6 +1,6 @@
 <?php
 
-namespace wdna\users;
+namespace wdna\laravel_users;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -17,7 +17,7 @@ class UsersServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom([__DIR__.'/../database/migrations']);
 
         /* ROUTES */
-        $this->loadRoutesFrom(__DIR__ . '/../routes/api.php');
+        $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
 
        
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace wdna\users\Controllers;
+namespace wdna\laravel_users\Controllers;
 
 use App\Http\Notification\Facade\Toastr;
 use Illuminate\Http\JsonResponse;

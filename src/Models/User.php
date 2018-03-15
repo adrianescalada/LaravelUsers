@@ -1,6 +1,6 @@
 <?php
 
-namespace wdna\users\Models;
+namespace wdna\laravel_users\Models;
 
 use App\Notifications\MailResetPasswordToken;
 use Illuminate\Notifications\Notifiable;

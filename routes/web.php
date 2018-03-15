@@ -1,6 +1,6 @@
 <?php
 
-Route::group(['namespace' => 'wdna\users\Controllers'], function() {
+Route::group(['namespace' => 'wdna\laravel_users\Controllers'], function() {
    
        
 Route::post('/login', 'Auth\LoginController@login');

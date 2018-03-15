@@ -1,6 +1,6 @@
 <?php
 
-namespace wdna\users\Models;
+namespace wdna\laravel_users\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;

@@ -1,5 +1,5 @@
 {
-    "name": "wdna/users",
+    "name": "wdna/laravel_users",
     "description": "A simple way of authenticating your APIs with API keys, Users, Roles and Permissions using Laravel",
     "keywords": [
         "api",
@@ -31,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-            "wdna\\users\\": "src"
+            "wdna\\laravel_users\\": "src"
         }
     },
     "minimum-stability": "dev"
