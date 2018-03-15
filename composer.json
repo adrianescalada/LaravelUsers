@@ -1,5 +1,5 @@
 {
-    "name": "wdna/users-roles",
+    "name": "wdna/users",
     "description": "A simple way of authenticating your APIs with API keys, Users, Roles and Permissions using Laravel",
     "keywords": [
         "api",
@@ -23,16 +23,15 @@
     ],
     "require": {
         "php": ">=5.6.4",
-        "illuminate/support": "^5.3.0",
-        "illuminate/database": "^5.3.0",
-         "chrisbjr/api-guard" :"4.*"
+        "illuminate/support": "^5.3.0"
+       
     },
     "require-dev": {
         "phpunit/php unit": "^4.0 || ^5.0"
     },
     "autoload": {
         "psr-4": {
-            "wdna\\users-roles\\": "src"
+            "wdna\\users\\": "src"
         }
     },
     "minimum-stability": "dev"
